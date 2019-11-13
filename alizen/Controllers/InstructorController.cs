@@ -8,7 +8,7 @@ using alizen.Models;
 
 namespace alizen.Controllers
 {
-    public class ProfesorController : Controller
+    public class InstructorController : Controller
     {
         public IActionResult Index()
         {

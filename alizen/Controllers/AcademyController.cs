@@ -8,17 +8,17 @@ using alizen.Models;
 
 namespace alizen.Controllers
 {
-    public class EscuelaController : Controller
+    public class AcademyController : Controller
     {
         public IActionResult Index()
         {
-            List<string> paises = new List<string>(){
+            List<string> countries = new List<string>(){
                 "Francia",
                 "Chile",
                 "Italia",
                 "Mexico"
             };
-            return View(paises);
+            return View(countries);
         }
 
         public IActionResult Privacy()

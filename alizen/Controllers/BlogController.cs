@@ -6,22 +6,32 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using alizen.Models;
 
+
 namespace alizen.Controllers
 {
-    public class AcademiaController : Controller
+    public class BlogController : Controller
     {
-        public IActionResult Index()
+        public IActionResult BlogDetail()
         {
+            ViewBag.Message="Descripcion resumida del blog";
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ResumeLastPost()
         {
+            ViewBag.Message="Obtener el ultimo Post";
             return View();
         }
 
-        public IActionResult Horario()
+        public IActionResult GetInstructor()
         {
+            ViewBag.Message="Obtener detaller del instructor";
+            return View();
+        }
+
+        public IActionResult ProductsList()
+        {
+            ViewBag.Message="Obtener lista de productos asociados en tiendita";
             return View();
         }
 
