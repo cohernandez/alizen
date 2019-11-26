@@ -13,9 +13,10 @@ namespace alizen.Models
 
         [BsonElement("Title")]
         public string Name { get; set; }
-        public string Stock { get; set; }
-        public string Price { get; set; }
         public decimal Description { get; set; }
-        public string Image { get; set; }        
+        public int Stock { get; set; }
+        public decimal Price { get; set; }
+        public string Image { get; set; }
+        // public DateTime LastBuy { get; set; }
     }
 }

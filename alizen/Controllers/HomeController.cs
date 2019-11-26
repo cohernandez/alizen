@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Web;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using alizen.Models;
@@ -19,6 +20,9 @@ namespace alizen.Controllers
 
         public IActionResult Index()
         {
+            int hour= DateTime.Now.Hour;
+            ViewBag.Greeting = hour<12? "Good Morning" : "Good:Afternoom";
+            
             ViewBag.Message="VideoDemo de los Servicios de la Academia de Aline";
             return View();
         }

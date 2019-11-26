@@ -6,6 +6,8 @@ namespace alizen.Models
         public string BooksCollectionName { get; set; }
         public string AcademiesCollectionName {get;set;}
         public string ProductsCollectionName { get; set; }
+        public string InstructorsCollectionName {get;set;}
+        public string UsersCollectionName {get;set;}
         /*
         public string BlogsCollectionName {get;set}
         public string CataloguesCollectionName {get;set}
@@ -23,6 +25,8 @@ namespace alizen.Models
     {
         string BooksCollectionName { get; set; }
         string ProductsCollectionName { get; set; }
+        string InstructorsCollectionName {get;set;}
+        string UsersCollectionName {get;set;}
         //string BlogsCollectionName { get;set; }
         string AcademiesCollectionName {get;set;}
         /*

@@ -37,7 +37,7 @@ namespace alizen {
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //BookStore
+            //Store
             //services.Configure<BookstoreDatabaseSettings> (
             services.Configure<StoreDatabaseSettings> (
                 //Configuration.GetSection (nameof (BookstoreDatabaseSettings)));

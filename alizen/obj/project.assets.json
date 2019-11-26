@@ -13414,11 +13414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/Desktop/devFullStack.Net/alizen/alizen/alizen.csproj",
+      "projectUniqueName": "/media/root/Backup/devFullStack.Net/alizen/alizen/alizen.csproj",
       "projectName": "alizen",
-      "projectPath": "/root/Desktop/devFullStack.Net/alizen/alizen/alizen.csproj",
+      "projectPath": "/media/root/Backup/devFullStack.Net/alizen/alizen/alizen.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/Desktop/devFullStack.Net/alizen/alizen/obj/",
+      "outputPath": "/media/root/Backup/devFullStack.Net/alizen/alizen/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
